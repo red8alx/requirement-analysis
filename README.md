@@ -165,7 +165,7 @@ Admin -- View
 ![Sample Use-case Diagram for Booking Management System](alx-booking-uc.png "Use-case Diagram")
 
 ## Acceptance Criteria.
-### **Importance in Requirement Analysis:**
+### Importance in Requirement Analysis:
 Acceptance Criteria are profoundly important in the Requirement Analysis phase for several reasons:
 
 1. Ensuring Clarity and Unambiguity: During analysis, requirements can often be vague or open to interpretation. Acceptance Criteria force stakeholders to think through the precise conditions under which a feature is considered complete and correct. This process uncovers hidden assumptions and clarifies ambiguities, leaving little room for misinterpretation by the development team.
@@ -178,6 +178,6 @@ Acceptance Criteria are profoundly important in the Requirement Analysis phase f
 
 5. Facilitating Communication and Collaboration: The process of defining Acceptance Criteria often involves collaborative sessions (e.g., "Three Amigos" - Business Analyst, Developer, Tester). This fosters a shared understanding across different roles, ensuring everyone is aligned on the expected behavior and quality of the feature.
 
-
 6. Basis for "Done" and Release Planning: Acceptance Criteria provide the objective measure for when a user story or feature is truly "done" and ready for acceptance by the product owner or customer. This clarity is vital for accurate progress tracking, release planning, and ultimately, successful project delivery.
+
 7. Aiding in Estimation: More precise requirements, backed by detailed acceptance criteria, allow development teams to make more accurate estimates of the effort required to implement a feature. This leads to more realistic project schedules and budgets.
