@@ -161,4 +161,4 @@ Admin -- DisplayAvailability
 Admin -- View
 @enduml
 
-![Sample Use-case Diagram for Booking Management System](alx-booking-uc.png "Use-case Diagram")
+![Sample Use-case Diagram for Booking Management System](alx-booking-uc.png?v=1 "Use-case Diagram")
