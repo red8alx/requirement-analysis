@@ -13,7 +13,6 @@ Requirement analysis is arguably the most critical phase in the SDLC because it 
 
 2. Basis for Testing: Requirements define what needs to be tested. Test cases are derived directly from functional and non-functional requirements, ensuring that the final product meets the specified criteria.
 
-
 3. Reduces Project Risk and Cost:
 
     * Identifying and resolving issues early in the analysis phase is significantly cheaper and less time-consuming than fixing them during coding or testing.
