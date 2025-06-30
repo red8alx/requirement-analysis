@@ -26,3 +26,10 @@ Requirement analysis is arguably the most critical phase in the SDLC because it 
 6. Increases User Satisfaction: A system built on well-analyzed requirements is more likely to meet actual user needs and expectations, leading to higher user adoption and satisfaction.
 
 7. Improved Project Planning and Estimation: Clear requirements enable more accurate estimates for time, resources, and budget, leading to more realistic project plans.
+
+## Why is Requirement Analysis Important?
+  * Clarity and Understanding: It helps in understanding what the stakeholders expect from the software, reducing ambiguity.
+  * Scope Definition: Clearly defines the scope of the project, which helps in preventing scope creep.
+  * Basis for Design and Development: Provides a solid foundation for designing and developing the system.
+  * Cost and Time Estimation: Facilitates accurate estimation of project cost, resources, and time.
+  * Quality Assurance: Ensures that the final product meets the specified requirements, leading to higher customer satisfaction.
