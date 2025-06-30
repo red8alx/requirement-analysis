@@ -163,4 +163,8 @@ Admin -- View
 ```
 ## Screenshot
 ![Sample Use-case Diagram for Booking Management System](alx-booking-uc.png "Use-case Diagram")
+
+
+
+
 ## Acceptance Criteria.
