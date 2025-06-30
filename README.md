@@ -45,14 +45,14 @@ Requirement analysis is arguably the most critical phase in the SDLC because it 
 ### Functional Requirements
 A **functional requirement** specifies what a system must do or perform in terms of its behavior and capabilities.
 Here's a list of functional requirement examples for a Booking Management System:
-    * The system shall allow hotel managers to update hotel information through a separate portal.
-    * The system shall enable customers to search for hotels.
-    * The system shall enable customers to book hotels.
-    * The booking service shall interact with a third-party payment service.
-    * The system shall display current booking details to customers.
-    * The system shall provide notifications to customers.
-    * The system shall store data in Hadoop for BigData analysis.
-    * The system shall perform business analysis based on stored data.
+* The system shall allow hotel managers to update hotel information through a separate portal.
+* The system shall enable customers to search for hotels.
+* The system shall enable customers to book hotels.
+* The booking service shall interact with a third-party payment service.
+* The system shall display current booking details to customers.
+* The system shall provide notifications to customers.
+* The system shall store data in Hadoop for BigData analysis.
+* The system shall perform business analysis based on stored data.
 ### Non-functional Requirements
 A **non-functional requirement (NFR)** specifies how well the system performs its functions, describing its quality attributes, constraints, and operational characteristics.
 Here's a list of non-functional requirement examples for a Booking Management System:
