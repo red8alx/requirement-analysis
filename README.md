@@ -119,4 +119,44 @@ Use Case Diagrams offer several significant benefits throughout the SDLC:
 6. **User-Centric Perspective:**
     * By focusing on actors and their goals, use case diagrams ensure that the system is designed from the perspective of its users, leading to a more user-friendly and valuable product.
 
-## Sample Use-Case Diagram 
+## Sample Use-Case Diagram
+```plantuml
+@startuml
+left to right direction
+
+actor "User" as User
+actor "Service Provider" as Provider
+actor "Administrator" as Admin
+actor "Payment Gateway" as PaymentGateway
+
+rectangle "Booking Management System" {
+  usecase "Search for Slots" as Search
+  usecase "Book Slot" as Book
+  usecase "View Bookings" as View
+  usecase "Cancel Booking" as Cancel
+  usecase "Send Booking Confirmation" as Confirm
+  usecase "Process Payment" as Payment
+  usecase "Notify Service Provider" as NotifyProvider
+  usecase "Manage Services and Slots" as Manage
+  usecase "Generate Booking Reports" as Reports
+  usecase "Display Real-time Availability" as DisplayAvailability
+}
+
+User -- Search
+User -- Book
+User -- View
+User -- Cancel
+User -- Confirm
+User -- Payment
+
+PaymentGateway -- Payment
+
+Provider -- NotifyProvider
+Provider -- View
+Provider -- DisplayAvailability
+
+Admin -- Manage
+Admin -- Reports
+Admin -- DisplayAvailability
+Admin -- View
+@enduml
