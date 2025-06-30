@@ -160,3 +160,4 @@ Admin -- Reports
 Admin -- DisplayAvailability
 Admin -- View
 @enduml
+```
