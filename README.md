@@ -120,7 +120,7 @@ Use Case Diagrams offer several significant benefits throughout the SDLC:
     * By focusing on actors and their goals, use case diagrams ensure that the system is designed from the perspective of its users, leading to a more user-friendly and valuable product.
 
 ## Sample Use-Case Diagram
-plantuml
+```plantuml
 @startuml
 left to right direction
 
