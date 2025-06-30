@@ -65,3 +65,70 @@ Here's a list of non-functional requirement examples for a Booking Management Sy
 * Cassandra shall handle large volumes of historical data.
 * The notification system shall use Kafka consumers.
 * The BigData analysis service shall use Apache Streaming.
+
+## Use Case Diagrams.
+### What are Use Case Diagrams?
+A **Use Case Diagram** is a type of Unified Modeling Language (UML) diagram that visually represents the functionality of a system from an external point of view. It shows what the system does by illustrating the interactions between users (or other external systems, called "actors") and the system's functions (called "use cases"). It's a high-level, abstract view, focusing on the goals that users achieve with the system rather than the internal details of how the system performs those goals.
+
+**Key Components of a Use Case Diagram:**
+
+1. Actor: Represented by a stick figure, an actor is a role played by a user or another system that interacts with the system being modeled. An actor is outside the system.
+
+* Example: Customer, Administrator, Payment Gateway.
+
+2. Use Case: Represented by an oval, a use case describes a specific goal-oriented functionality that the system provides to an actor. Each use case represents a distinct piece of user-observable functionality.
+
+* Example: Place Order, Log In, Manage Inventory.
+
+3. System Boundary: Represented by a rectangle, this box encloses all the use cases, distinguishing them from the actors. It defines the scope of the system being modeled. Actors are placed outside this boundary.
+
+4. Relationships: Lines connecting actors to use cases or connecting use cases to each other.
+* Association (Actor-Use Case): A simple line connecting an actor to a use case, indicating that the actor participates in or initiates that use case.
+
+* Include (<<include>>): Used when a particular piece of functionality (one use case) is an integral part of another use case. The included use case is always executed.
+
+    * Example: "Place Order" <<includes>> "Process Payment".
+
+* Extend (<<extend>>): Used when a use case adds optional or conditional functionality to another use case. The extending use case is executed only under specific conditions.
+
+
+    * Example: "Process Order" <<extends>> "Handle Fraudulent Payment."
+
+* Generalization (Inheritance): Less common, but can show that one actor or use case is a specialized version of another.
+
+### Benefits of Using Use Case Diagrams
+Use Case Diagrams offer several significant benefits throughout the SDLC:
+
+1. **Clarity and Simplicity:**
+
+* Easy to Understand: They are intuitive and non-technical, making them easily understandable by both technical and non-technical stakeholders (e.g., business users, customers, developers, testers).
+
+* High-Level Overview: They quickly provide a clear, high-level picture of what the system does without getting bogged down in implementation details.
+
+2. **Effective Communication:**
+
+* Common Language: They establish a shared vocabulary between business users and technical teams, bridging the communication gap.
+
+* Stakeholder Engagement: Their simplicity encourages active participation and feedback from clients and business users, as they can easily see and validate the system's proposed functionality.
+
+3. **Scope Definition and Management:**
+
+* Boundary Definition: The system boundary clearly delineates what is part of the system and what is external, helping to define the project scope.
+
+* Prevents Scope Creep: By explicitly defining functionalities at the outset, they help manage expectations and reduce the likelihood of uncontrolled feature additions.
+
+4. **Foundation for Requirements and Design:**
+
+* Elicitation Aid: They can be used during requirements elicitation to identify primary functions and user goals.
+
+* Basis for Detailed Requirements: Each use case can later be elaborated into a detailed use case description (main flow, alternative flows, preconditions, postconditions), or broken down into multiple user stories, providing granular requirements for development.
+
+* Input for Design: They help architects and designers understand the overall system behavior, informing the high-level system architecture and module design.
+
+5. **Test Case Generation:**
+
+* Verifiability: Each use case represents a testable scenario. Testers can use the use case diagrams and their detailed descriptions as a direct basis for creating test plans and test cases, ensuring that all identified functionalities are thoroughly tested.
+
+6. **User-Centric Perspective:**
+
+* By focusing on actors and their goals, use case diagrams ensure that the system is designed from the perspective of its users, leading to a more user-friendly and valuable product.
