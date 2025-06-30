@@ -174,7 +174,7 @@ Acceptance Criteria are profoundly important in the Requirement Analysis phase f
 
 2. **Making Requirements Testable (Verifiability):** This is perhaps their most critical role. Each acceptance criterion is, by its nature, a test case. This direct link between requirements and tests ensures that every specified behavior can be verified. In the analysis phase, defining these criteria helps validate that the requirement is indeed verifiable, preventing the team from building something that cannot be objectively proven to work as intended.
 
-**3. Defining Scope and Preventing Scope Creep:** By clearly outlining the boundaries of a feature, Acceptance Criteria help manage expectations and prevent "scope creep." If a stakeholder later requests functionality not covered by the defined criteria, it's immediately clear that it's a new requirement, allowing for proper re-prioritization and planning.
+3. Defining Scope and Preventing Scope Creep: By clearly outlining the boundaries of a feature, Acceptance Criteria help manage expectations and prevent "scope creep." If a stakeholder later requests functionality not covered by the defined criteria, it's immediately clear that it's a new requirement, allowing for proper re-prioritization and planning.
 
 4. **Reducing Rework and Defects:** Detailed Acceptance Criteria reduce the chances of misunderstandings between business, development, and QA teams. When everyone agrees on the "definition of done" upfront, developers build the right thing the first time, and testers know exactly what to test for, significantly reducing costly rework and defects discovered late in the development cycle.
 
@@ -183,3 +183,18 @@ Acceptance Criteria are profoundly important in the Requirement Analysis phase f
 6. **Basis for "Done" and Release Planning:** Acceptance Criteria provide the objective measure for when a user story or feature is truly "done" and ready for acceptance by the product owner or customer. This clarity is vital for accurate progress tracking, release planning, and ultimately, successful project delivery.
 
 7. **Aiding in Estimation:** More precise requirements, backed by detailed acceptance criteria, allow development teams to make more accurate estimates of the effort required to implement a feature. This leads to more realistic project schedules and budgets.
+
+### Example
+Here's a brief example of acceptance criteria for a "Checkout" feature in a booking management system:
+
+**Feature:** Checkout Process
+
+**Acceptance Criteria:**
+
+* Given a user has items in their booking cart, When they proceed to checkout, Then they should be presented with a summary of their booking and total cost.
+
+* Given a user is on the checkout page, When they select a payment method and provide valid payment details, Then the system should process the payment and confirm the booking.
+
+* Given a user is on the checkout page, When the payment fails, Then the system should display an error message and allow them to retry or select another payment method.
+
+* Given a user completes the checkout, When the booking is confirmed, Then the system should send a booking confirmation email to the user.
