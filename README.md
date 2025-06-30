@@ -16,9 +16,9 @@ Requirement analysis is arguably the most critical phase in the SDLC because it 
 
 3. Reduces Project Risk and Cost:
 
-  * Identifying and resolving issues early in the analysis phase is significantly cheaper and less time-consuming than fixing them during coding or testing.
+    * Identifying and resolving issues early in the analysis phase is significantly cheaper and less time-consuming than fixing them during coding or testing.
 
-  * Prevents building the "wrong" product or missing key functionalities, avoiding costly rework or project abandonment.
+    * Prevents building the "wrong" product or missing key functionalities, avoiding costly rework or project abandonment.
 
 4. Ensures Stakeholder Alignment: It ensures that all parties involved (customers, users, management, development team) share a common understanding and vision of the system. This reduces misunderstandings and improves communication.
 
