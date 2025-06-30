@@ -33,3 +33,10 @@ Requirement analysis is arguably the most critical phase in the SDLC because it 
   * **Basis for Design and Development:** Provides a solid foundation for designing and developing the system.
   * **Cost and Time Estimation:** Facilitates accurate estimation of project cost, resources, and time.
   * **Quality Assurance:** Ensures that the final product meets the specified requirements, leading to higher customer satisfaction.
+
+## Key Activities in Requirement Analysis.
+* **Requirement Gathering**: This is the initial, overall process of collecting all information related to the desired software system from various sources.
+* **Requirement Elicitation**: This involves actively and proactively drawing out hidden, unstated, or incomplete needs from stakeholders using specific techniques.
+* **Requirement Documentation**: This activity focuses on formally writing down the identified and analyzed requirements in a clear, consistent, and traceable manner.
+* **Requirement Analysis and Modeling**: This involves scrutinizing, refining, organizing, and creating visual representations of requirements to ensure clarity, consistency, and feasibility.
+* **Requirement Validation**: This is the crucial step of verifying that the documented requirements are correct, complete, and truly meet the stakeholders' needs and business goals.
