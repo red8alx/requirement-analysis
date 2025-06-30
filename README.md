@@ -56,12 +56,12 @@ Here's a list of functional requirement examples for a Booking Management System
 ### Non-functional Requirements
 A **non-functional requirement (NFR)** specifies how well the system performs its functions, describing its quality attributes, constraints, and operational characteristics.
 Here's a list of non-functional requirement examples for a Booking Management System:
-    * The system shall manage high user traffic.
-    * The Hotel Management Service shall handle requests efficiently via a load balancer.
-    * The Hotel Management Service's Hotel DB cluster shall support efficient read/write operations.
-    * The system shall send data updates to a CDN.
-    * The system shall send data updates to a Messaging Queue System for further processing.
-    * The booking service shall use Redis for caching.
-    * Cassandra shall handle large volumes of historical data.
-    * The notification system shall use Kafka consumers.
-    * The BigData analysis service shall use Apache Streaming.
+* The system shall manage high user traffic.
+* The Hotel Management Service shall handle requests efficiently via a load balancer.
+* The Hotel Management Service's Hotel DB cluster shall support efficient read/write operations.
+* The system shall send data updates to a CDN.
+* The system shall send data updates to a Messaging Queue System for further processing.
+* The booking service shall use Redis for caching.
+* Cassandra shall handle large volumes of historical data.
+* The notification system shall use Kafka consumers.
+* The BigData analysis service shall use Apache Streaming.
