@@ -40,3 +40,28 @@ Requirement analysis is arguably the most critical phase in the SDLC because it 
 * **Requirement Documentation**: This activity focuses on formally writing down the identified and analyzed requirements in a clear, consistent, and traceable manner.
 * **Requirement Analysis and Modeling**: This involves scrutinizing, refining, organizing, and creating visual representations of requirements to ensure clarity, consistency, and feasibility.
 * **Requirement Validation**: This is the crucial step of verifying that the documented requirements are correct, complete, and truly meet the stakeholders' needs and business goals.
+
+## Types of Requirements.
+### Functional Requirements
+A **functional requirement** specifies what a system must do or perform in terms of its behavior and capabilities.
+Here's a list of functional requirement examples for a Booking Management System:
+    * The system shall allow hotel managers to update hotel information through a separate portal.
+    * The system shall enable customers to search for hotels.
+    * The system shall enable customers to book hotels.
+    * The booking service shall interact with a third-party payment service.
+    * The system shall display current booking details to customers.
+    * The system shall provide notifications to customers.
+    * The system shall store data in Hadoop for BigData analysis.
+    * The system shall perform business analysis based on stored data.
+### Non-functional Requirements
+A **non-functional requirement (NFR)** specifies how well the system performs its functions, describing its quality attributes, constraints, and operational characteristics.
+Here's a list of non-functional requirement examples for a Booking Management System:
+    * The system shall manage high user traffic.
+    * The Hotel Management Service shall handle requests efficiently via a load balancer.
+    * The Hotel Management Service's Hotel DB cluster shall support efficient read/write operations.
+    * The system shall send data updates to a CDN.
+    * The system shall send data updates to a Messaging Queue System for further processing.
+    * The booking service shall use Redis for caching.
+    * Cassandra shall handle large volumes of historical data.
+    * The notification system shall use Kafka consumers.
+    * The BigData analysis service shall use Apache Streaming.
